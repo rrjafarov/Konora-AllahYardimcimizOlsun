@@ -1,0 +1,41 @@
+.contact-page-items {
+  .contact-with-us {
+    display: flex;
+    justify-content: center;
+    padding: 80px 5px 50px 5px;
+    color: white;
+    h4 {
+      padding-bottom: 15px;
+      font-size: 32px;
+    }
+    span {
+      padding-left: 10px;
+    }
+    .mobile-contact-item {
+      padding: 8px;
+    }
+    .contact-withus-right {
+      p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+      }
+      span {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+  .contact-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

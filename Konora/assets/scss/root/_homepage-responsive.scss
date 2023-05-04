@@ -1,0 +1,544 @@
+@media only screen and (max-width: 991.98px) {
+  #konora-hero {
+    // padding-top: 120px !important;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3 !important;
+  }
+  .c-item {
+    padding-top: 0px !important;
+    position: relative;
+    .konora-home-events {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 99%;
+      top: 30% !important;
+      text-align: center;
+      h1 {
+        font-family: "Kaushan Script";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.125rem !important;
+        text-align: center;
+        color: #e8ba5b;
+      }
+      p {
+        font-size: 1rem;
+        padding: 0px 0px 10px 0px;
+      }
+      a {
+        padding: 10px 18px;
+        font-size: 0.75rem;
+        // margin-top: 30px;
+      }
+    }
+  }
+  // HomePage - About
+  #konora-about {
+    h2 {
+      font-size: 36px !important;
+      margin-top: 67px !important;
+    }
+    .hp-about-img {
+      padding-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .hp-about-hide-img {
+        width: 462px;
+        height: 453px;
+        border-radius: 17px;
+        position: relative;
+        background: #e8ba5b;
+      }
+      .hp-about-visible-img {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    }
+  }
+  .about-text {
+    padding-top: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-weight: 400;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  // HomePage Services
+  .konora-services {
+    padding-top: 50px !important;
+    h2 {
+      font-size: 36px !important;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 12px !important;
+    }
+    .services-cart-item {
+      border-radius: 20px;
+      border: 1px solid #000;
+      h5 {
+        text-transform: uppercase;
+        font-size: 20px !important;
+      }
+    }
+  }
+  // HomePage Gallery
+  #konora-gallery {
+    .konora-gallery {
+      .gallery-item:nth-child(7n + 1) {
+        width: 50% !important;
+      }
+      .gallery-item:nth-child(7n + 2) {
+        width: 50% !important;
+      }
+      .gallery-item:nth-child(7n + 3) {
+        width: 30% !important;
+      }
+      .gallery-item:nth-child(7n + 4) {
+        width: 40% !important;
+      }
+      .gallery-item:nth-child(7n + 5) {
+        width: 30% !important;
+      }
+      .gallery-item:nth-child(7n + 6) {
+        width: 50% !important;
+        display: none;
+      }
+      .gallery-item:nth-child(7n + 7) {
+        width: 50% !important;
+        display: none;
+      }
+    }
+  }
+  .konora-gallery {
+    padding-top: 35px;
+    h2 {
+      font-size: 36px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 12px !important;
+    }
+  }
+  // partners
+  .konora-partners {
+    padding-top: 100px !important;
+    h2 {
+      font-family: "Kaushan Script", cursive;
+      font-weight: 400;
+      font-size: 36px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 12px !important;
+    }
+  }
+  #konora-contact {
+    .konora-contact {
+      padding-top: 35px;
+      h2 {
+        font-size: 28px !important;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      p {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 12px !important;
+        color: #ffffff;
+      }
+      .contact-text {
+        padding-top: 32px !important;
+        h3 {
+          font-size: 16px !important;
+          text-align: center !important;
+        }
+        p {
+          font-weight: 400;
+          color: #ffffff;
+          text-align: center !important;
+        }
+        a {
+          display: none;
+          text-align: center !important;
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: 600;
+          text-transform: uppercase;
+          span {
+            border-bottom: 2px solid #ffffff;
+          }
+        }
+        input {
+          color: #fff;
+          margin: 10px;
+          width: 100%;
+          height: 50px;
+          background: transparent;
+          padding: 15px;
+        }
+        textarea {
+          color: #fff;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  #konora-hero {
+    // padding-top: 120px !important;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3 !important;
+  }
+  .c-item {
+    position: relative;
+    .konora-home-events {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px auto;
+      // z-index: 8;
+      width: 99%;
+      top: 20% !important;
+      text-align: center;
+      h1 {
+        font-family: "Kaushan Script";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem !important;
+        text-align: center;
+        color: #e8ba5b;
+      }
+      p {
+        font-size: 1rem;
+        padding: 10px 50px;
+        padding: 0px 50px 10px 50px !important;
+        margin: 0px 30px;
+      }
+      a {
+        padding: 5px 12px;
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  #konora-hero {
+    // padding-top: 120px !important;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3 !important;
+  }
+  .c-item {
+    position: relative;
+    .konora-home-events {
+      padding-top: 0px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: -30px auto;
+      width: 99%;
+      top: 20% !important;
+      text-align: center;
+      h1 {
+        font-size: 2rem !important;
+      }
+      p {
+        font-size: 0.75rem !important;
+        padding: 0px 50px !important;
+      }
+      a {
+        padding: 3px 8px !important;
+        font-size: 0.5rem !important;
+        margin-top: 10px;
+      }
+    }
+  }
+  //
+  #konora-about {
+    h2 {
+      font-size: 36px !important;
+      margin-top: 67px !important;
+    }
+    .hp-about-img {
+      padding-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding-left: 15px;
+      .hp-about-hide-img {
+        width: 462px;
+        height: 403px;
+        border-radius: 17px;
+        position: relative;
+        background: #e8ba5b;
+      }
+      .hp-about-visible-img {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    }
+  }
+  // 
+  .konora-services {
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 10px !important;
+      color: #ffffff;
+    }
+    .services-cart-item {
+      border-radius: 20px;
+      border: 1px solid #000;
+      h5 {
+        text-transform: uppercase;
+        font-size: 18px !important;
+      }
+      p {
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 389.98px) {
+  // HomePage - Home
+  #konora-hero {
+    // padding-top: 120px !important;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3 !important;
+  }
+
+  .c-item {
+    position: relative;
+    .konora-home-events {
+      padding-top: 80px !important;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px auto;
+      width: 99%;
+      top: 1px !important;
+      text-align: center;
+      h1 {
+        font-size: 1.5rem !important;
+      }
+      p {
+        font-size: 0.75rem;
+        padding: 0px 50px !important;
+        margin: 0px 20px;
+      }
+      a {
+        padding: 3px 8px !important;
+        font-size: 0.3rem !important;
+        // margin-bottom: 80px !important;
+      }
+    }
+  }
+  //   HomePage - About
+  #konora-about {
+    h2 {
+      font-size: 24px !important;
+      font-family: "Kaushan Script", cursive;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 167px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+  .konora-about {
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    .about-text {
+      font-family: "Montserrat", sans-serif;
+      padding-top: 125px;
+      display: flex;
+      flex-direction: column;
+      p {
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 12px !important;
+      }
+    }
+    .hp-about-hide-img {
+      width: 462px;
+      height: 303px !important;
+      border-radius: 17px;
+      position: relative;
+      background: #e8ba5b;
+    }
+  }
+  // 
+
+  // HomePage - Services
+  .konora-services {
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 10px !important;
+      color: #ffffff;
+    }
+    .services-cart-item {
+      border-radius: 20px;
+      border: 1px solid #000;
+      h5 {
+        text-transform: uppercase;
+        font-size: 12px !important;
+      }
+      p {
+        font-size: 8px !important;
+      }
+    }
+  }
+  // HomePage Gallery
+  .konora-gallery {
+    padding-top: 35px;
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 10px !important;
+      color: #ffffff;
+    }
+  }
+
+  // HomePage Partners
+  .konora-partners {
+    padding-top: 35px;
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 10px !important;
+      color: #ffffff;
+    }
+  }
+  // HomePage Contact
+  .konora-contact {
+    padding-top: 100px !important;
+    h2 {
+      font-size: 24px !important;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      padding-top: 20px;
+      text-align: center !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px !important;
+      font-weight: 400;
+      color: #ffffff;
+    }
+  }
+  .contact-text {
+    padding-top: 30px !important;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    h3 {
+      font-size: 12px !important;
+      text-align: center !important;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff;
+      text-align: left;
+    }
+    p {
+      font-weight: 400;
+      color: #ffffff;
+      text-align: center !important;
+      font-size: 12px !important;
+    }
+    a {
+      display: none !important;
+      text-align: left;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      text-transform: uppercase;
+      span {
+        border-bottom: 2px solid #ffffff;
+      }
+    }
+    input {
+      color: #fff;
+      margin: 10px;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      padding: 15px;
+    }
+    textarea {
+      color: #fff;
+      width: 100%;
+      height: 50px;
+      padding: 15px;
+      margin: 10px;
+      background: transparent;
+    }
+  }
+  .contact-form {
+    padding-top: 43px !important;
+  }
+}
